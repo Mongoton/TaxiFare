@@ -1,0 +1,20 @@
+c:\users\ngbenjam\documents\visual studio 2010\Projects\TaxiCabFare\TaxiCabFare\bin\TaxiCabFare.dll
+c:\users\ngbenjam\documents\visual studio 2010\Projects\TaxiCabFare\TaxiCabFare\bin\TaxiCabFare.pdb
+c:\users\ngbenjam\documents\visual studio 2010\Projects\TaxiCabFare\TaxiCabFare\bin\EntityFramework.dll
+c:\users\ngbenjam\documents\visual studio 2010\Projects\TaxiCabFare\TaxiCabFare\bin\EntityFramework.xml
+c:\users\ngbenjam\documents\visual studio 2010\Projects\TaxiCabFare\TaxiCabFare\obj\Debug\TaxiCabFare.dll
+c:\users\ngbenjam\documents\visual studio 2010\Projects\TaxiCabFare\TaxiCabFare\obj\Debug\TaxiCabFare.pdb
+C:\Users\Ben\Documents\GitHub\TaxiCabFare\TaxiCabFare\bin\TaxiCabFare.dll
+C:\Users\Ben\Documents\GitHub\TaxiCabFare\TaxiCabFare\bin\TaxiCabFare.pdb
+C:\Users\Ben\Documents\GitHub\TaxiCabFare\TaxiCabFare\bin\EntityFramework.dll
+C:\Users\Ben\Documents\GitHub\TaxiCabFare\TaxiCabFare\bin\EntityFramework.xml
+C:\Users\Ben\Documents\GitHub\TaxiCabFare\TaxiCabFare\obj\Debug\TaxiCabFare.csprojResolveAssemblyReference.cache
+C:\Users\Ben\Documents\GitHub\TaxiCabFare\TaxiCabFare\obj\Debug\TaxiCabFare.dll
+C:\Users\Ben\Documents\GitHub\TaxiCabFare\TaxiCabFare\obj\Debug\TaxiCabFare.pdb
+C:\Users\Ben\Documents\GitHub\TaxiCabFare Upgraded\TaxiCabFare\bin\TaxiCabFare.dll
+C:\Users\Ben\Documents\GitHub\TaxiCabFare Upgraded\TaxiCabFare\bin\TaxiCabFare.pdb
+C:\Users\Ben\Documents\GitHub\TaxiCabFare Upgraded\TaxiCabFare\bin\EntityFramework.dll
+C:\Users\Ben\Documents\GitHub\TaxiCabFare Upgraded\TaxiCabFare\bin\EntityFramework.xml
+C:\Users\Ben\Documents\GitHub\TaxiCabFare Upgraded\TaxiCabFare\obj\Debug\TaxiCabFare.csprojResolveAssemblyReference.cache
+C:\Users\Ben\Documents\GitHub\TaxiCabFare Upgraded\TaxiCabFare\obj\Debug\TaxiCabFare.dll
+C:\Users\Ben\Documents\GitHub\TaxiCabFare Upgraded\TaxiCabFare\obj\Debug\TaxiCabFare.pdb

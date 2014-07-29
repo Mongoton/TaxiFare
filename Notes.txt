@@ -1,0 +1,11 @@
+
+Hopefully this works in VS2010 as I only have VS2012 and there are troubles on my machine downgrading to VS2010.  Spent a brief time on a VS2010 machine but had to finish on the VS2012.
+Had this not been an interview project I would have been asking a lot of clarifying questions.
+There has to be a better way to improve the hour comparison.
+Clientside and Server side data validation can be improved to make sure appropriate values are sent back to be processed.
+Can probably separate out some of the business logic so that it's more testable and modular.
+Can probably add some API from google to determine location and distance of travel based on inputed address.
+Surcharge of $0.50 for NY might not apply if the destination was in NJ but I included it always anyway.
+Missing promises. Not sure how to implement without some semblance of a debugger for angular.
+Missing custom directive and validation. Not sure what exactly what this is.
+Missing unit tests in dotnet and jasmine and e2e test.
