@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="96c060de-5aca-4858-8382-e5935e7b3df4" name="ngbenjam@MNJ-DPS0CX1 2014-07-30 16:40:07" runUser="MMC\ngbenjam" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="5fa444f0-0074-4bbc-8b74-52cdae0905b3">
+    <Deployment runDeploymentRoot="ngbenjam_MNJ-DPS0CX1 2014-07-30 16_40_07">
+      <DeploymentItem filename="c:\users\ngbenjam\documents\visual studio 2010\Projects\TaxiFare\TaxiFare\bin\TaxiFare.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-07-30T16:40:07.3989866-04:00" queuing="2014-07-30T16:40:07.5400007-04:00" start="2014-07-30T16:40:07.5450012-04:00" finish="2014-07-30T16:40:07.7760243-04:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="2" executed="2" passed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="GetRideInfo" storage="c:\users\ngbenjam\documents\visual studio 2010\projects\taxifare\taxifare.tests\bin\debug\taxifare.tests.dll" id="7e24e37d-c5d5-2f84-f77e-d4ddfba04829">
+      <Execution id="39639a9f-e260-4a49-8fac-10c4f8c165ca" />
+      <TestMethod codeBase="c:/users/ngbenjam/documents/visual studio 2010/Projects/TaxiFare/TaxiFare.Tests/bin/Debug/TaxiFare.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TaxiFare.Tests.Controllers.HomeControllerTest, TaxiFare.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetRideInfo" />
+    </UnitTest>
+    <UnitTest name="Index" storage="c:\users\ngbenjam\documents\visual studio 2010\projects\taxifare\taxifare.tests\bin\debug\taxifare.tests.dll" id="822471b5-f967-4ffc-d222-ee6728f8f5dc">
+      <Execution id="d158dfbb-fef7-4f9a-b919-831e975234fa" />
+      <TestMethod codeBase="c:/users/ngbenjam/documents/visual studio 2010/Projects/TaxiFare/TaxiFare.Tests/bin/Debug/TaxiFare.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TaxiFare.Tests.Controllers.HomeControllerTest, TaxiFare.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Index" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="7e24e37d-c5d5-2f84-f77e-d4ddfba04829" executionId="39639a9f-e260-4a49-8fac-10c4f8c165ca" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="822471b5-f967-4ffc-d222-ee6728f8f5dc" executionId="d158dfbb-fef7-4f9a-b919-831e975234fa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="39639a9f-e260-4a49-8fac-10c4f8c165ca" testId="7e24e37d-c5d5-2f84-f77e-d4ddfba04829" testName="GetRideInfo" computerName="MNJ-DPS0CX1" duration="00:00:00.0530478" startTime="2014-07-30T16:40:07.5480015-04:00" endTime="2014-07-30T16:40:07.7350202-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="39639a9f-e260-4a49-8fac-10c4f8c165ca">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;9.25 (System.Double)&gt;. Actual:&lt;System.Web.Mvc.JsonResult (System.Web.Mvc.JsonResult)&gt;. </Message>
+          <StackTrace>   at TaxiFare.Tests.Controllers.HomeControllerTest.GetRideInfo() in c:\users\ngbenjam\documents\visual studio 2010\Projects\TaxiFare\TaxiFare.Tests\Controllers\HomeControllerTest.cs:line 40
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d158dfbb-fef7-4f9a-b919-831e975234fa" testId="822471b5-f967-4ffc-d222-ee6728f8f5dc" testName="Index" computerName="MNJ-DPS0CX1" duration="00:00:00.0133852" startTime="2014-07-30T16:40:07.7370204-04:00" endTime="2014-07-30T16:40:07.7520219-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d158dfbb-fef7-4f9a-b919-831e975234fa">
+    </UnitTestResult>
+  </Results>
+</TestRun>

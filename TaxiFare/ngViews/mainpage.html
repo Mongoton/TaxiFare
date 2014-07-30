@@ -1,0 +1,23 @@
+﻿<app-title></app-title>
+
+<div ng-controller="MainController">
+    <table>
+        <tr>
+            <td>Number of minutes while travelling above 6 mph:</td>
+            <td><input type="number" ng-model="ride.TaxiAbove6Min" class="form-control" required /> <span class="error" ng-show="numerror"></span></td>
+        </tr>
+        <tr>
+            <td>Number of miles traveled while traveling below 6 mph:</td>
+            <td><input type="number" ng-model="ride.TaxiBelow6Min" class="form-control" required /> <span class="error" ng-show="numerror"></span></td>
+        </tr>
+        <tr>
+            <td>Date and time of service:</td>
+            <td><input type="datetime-local" ng-model="ride.RideDate" class="form-control" required/> <span class="error" ng-show="dateerror"></span></td>
+        </tr>
+    </table>
+    
+    <button class="btn btn-default" ng-click="calculate(ride)">Calculate</button>
+    <div> 
+    {{totalfare}}
+    </div>
+</div>

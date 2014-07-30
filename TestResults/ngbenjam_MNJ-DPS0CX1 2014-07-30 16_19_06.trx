@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="08aae183-6a15-489d-adba-05837475bfdf" name="ngbenjam@MNJ-DPS0CX1 2014-07-30 16:19:06" runUser="MMC\ngbenjam" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="9147b220-d79c-4493-a3ea-da696e1473dc">
+    <Deployment runDeploymentRoot="ngbenjam_MNJ-DPS0CX1 2014-07-30 16_19_06">
+      <DeploymentItem filename="c:\users\ngbenjam\documents\visual studio 2010\Projects\TaxiFare\TaxiFare\bin\TaxiFare.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-07-30T16:19:06.3078901-04:00" queuing="2014-07-30T16:19:06.8559449-04:00" start="2014-07-30T16:19:06.8969490-04:00" finish="2014-07-30T16:19:07.3119905-04:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Index" storage="c:\users\ngbenjam\documents\visual studio 2010\projects\taxifare\taxifare.tests\bin\debug\taxifare.tests.dll" id="822471b5-f967-4ffc-d222-ee6728f8f5dc">
+      <Execution id="01cf50c7-c881-46db-96de-1542378dd537" />
+      <TestMethod codeBase="c:/users/ngbenjam/documents/visual studio 2010/Projects/TaxiFare/TaxiFare.Tests/bin/Debug/TaxiFare.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TaxiFare.Tests.Controllers.HomeControllerTest, TaxiFare.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Index" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="822471b5-f967-4ffc-d222-ee6728f8f5dc" executionId="01cf50c7-c881-46db-96de-1542378dd537" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="01cf50c7-c881-46db-96de-1542378dd537" testId="822471b5-f967-4ffc-d222-ee6728f8f5dc" testName="Index" computerName="MNJ-DPS0CX1" duration="00:00:00.1147335" startTime="2014-07-30T16:19:06.9099503-04:00" endTime="2014-07-30T16:19:07.2729866-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="01cf50c7-c881-46db-96de-1542378dd537">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;Taxi Fare&gt;. Actual:&lt;(null)&gt;. </Message>
+          <StackTrace>   at CallSite.Target(Closure , CallSite , Type , String , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecuteVoid3[T0,T1,T2](CallSite site, T0 arg0, T1 arg1, T2 arg2)
+   at TaxiFare.Tests.Controllers.HomeControllerTest.Index() in c:\users\ngbenjam\documents\visual studio 2010\Projects\TaxiFare\TaxiFare.Tests\Controllers\HomeControllerTest.cs:line 25
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

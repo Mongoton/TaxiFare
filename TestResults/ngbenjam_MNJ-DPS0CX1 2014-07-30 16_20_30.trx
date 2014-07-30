@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="cf314625-1ea6-4025-94f2-eddbcdf8cabc" name="ngbenjam@MNJ-DPS0CX1 2014-07-30 16:20:30" runUser="MMC\ngbenjam" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="9147b220-d79c-4493-a3ea-da696e1473dc">
+    <Deployment userDeploymentRoot="c:\users\ngbenjam\documents\visual studio 2010\Projects\TaxiFare\TestResults" useDefaultDeploymentRoot="false" runDeploymentRoot="ngbenjam_MNJ-DPS0CX1 2014-07-30 16_20_30">
+      <DeploymentItem filename="c:\users\ngbenjam\documents\visual studio 2010\Projects\TaxiFare\TaxiFare\bin\TaxiFare.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-07-30T16:20:30.6543239-04:00" queuing="2014-07-30T16:20:31.6214206-04:00" start="2014-07-30T16:20:31.7154300-04:00" finish="2014-07-30T16:20:50.6073190-04:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Index" storage="c:\users\ngbenjam\documents\visual studio 2010\projects\taxifare\taxifare.tests\bin\debug\taxifare.tests.dll" id="822471b5-f967-4ffc-d222-ee6728f8f5dc">
+      <Execution id="f9d7098d-1a32-406e-9d6b-fe8d683f4dfd" />
+      <TestMethod codeBase="c:/users/ngbenjam/documents/visual studio 2010/Projects/TaxiFare/TaxiFare.Tests/bin/Debug/TaxiFare.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TaxiFare.Tests.Controllers.HomeControllerTest, TaxiFare.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Index" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="822471b5-f967-4ffc-d222-ee6728f8f5dc" executionId="f9d7098d-1a32-406e-9d6b-fe8d683f4dfd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="f9d7098d-1a32-406e-9d6b-fe8d683f4dfd" testId="822471b5-f967-4ffc-d222-ee6728f8f5dc" testName="Index" computerName="MNJ-DPS0CX1" duration="00:00:17.5268552" startTime="2014-07-30T16:20:31.8064391-04:00" endTime="2014-07-30T16:20:50.5533136-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f9d7098d-1a32-406e-9d6b-fe8d683f4dfd">
+    </UnitTestResult>
+  </Results>
+</TestRun>
