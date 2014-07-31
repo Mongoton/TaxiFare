@@ -1,0 +1,8 @@
+c:\users\ngbenjam\documents\visual studio 2010\Projects\TaxiCabFare\TaxiCabFare.Tests\obj\Debug\TaxiCabFare.Tests.csprojResolveAssemblyReference.cache
+c:\users\ngbenjam\documents\visual studio 2010\Projects\TaxiCabFare\TaxiCabFare.Tests\bin\Debug\TaxiCabFare.Tests.dll.config
+c:\users\ngbenjam\documents\visual studio 2010\Projects\TaxiCabFare\TaxiCabFare.Tests\bin\Debug\TaxiCabFare.Tests.dll
+c:\users\ngbenjam\documents\visual studio 2010\Projects\TaxiCabFare\TaxiCabFare.Tests\bin\Debug\TaxiCabFare.Tests.pdb
+c:\users\ngbenjam\documents\visual studio 2010\Projects\TaxiCabFare\TaxiCabFare.Tests\bin\Debug\TaxiCabFare.dll
+c:\users\ngbenjam\documents\visual studio 2010\Projects\TaxiCabFare\TaxiCabFare.Tests\bin\Debug\TaxiCabFare.pdb
+c:\users\ngbenjam\documents\visual studio 2010\Projects\TaxiCabFare\TaxiCabFare.Tests\obj\Debug\TaxiCabFare.Tests.dll
+c:\users\ngbenjam\documents\visual studio 2010\Projects\TaxiCabFare\TaxiCabFare.Tests\obj\Debug\TaxiCabFare.Tests.pdb
