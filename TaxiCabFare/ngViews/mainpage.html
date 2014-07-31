@@ -1,0 +1,35 @@
+﻿<script>
+
+    $("#datepicker").datepicker();
+
+</script>
+
+<div id="title">
+    <h1>Taxi Cab Fare Calculation</h1>
+</div>
+<div ng-controller="MainController">
+    <table>
+        <tr>
+            <td>Number of minutes while travelling above 6 mph:</td>
+            <td><input type="text" ng-model="ride.TaxiAbove6Min" class="form-control" /></td>
+        </tr>
+        <tr>
+            <td>Number of miles traveled while traveling below 6 mph:</td>
+            <td><input type="text" ng-model="ride.TaxiBelow6Min" class ="form-control"/></td>
+        </tr>
+        <tr>
+            <td>Date of service:</td>
+            <td><input type="text" ng-model="ride.RideDate" class="form-control" id="datepicker"/></td>
+        </tr>
+         <tr>
+            <td>Time of service:</td>
+            <td><input type="text" ng-model="ride.RideTime" class="form-control" id="Text1"/></td>
+        </tr>
+    </table>
+    
+    <button class="btn btn-default" ng-click="calculate(ride)">Calculate</button>
+    <div> 
+    {{totalfare}}
+    </div>
+    <div style="color:red;" ng-show="error">Invalid data.</div>
+</div>
